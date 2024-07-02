@@ -42,8 +42,8 @@ Excute the following codes:
 ```
 Or download this file to your computer and then upload to **colab**  
 *you can do with your new document to **Colab***
-![Download figure](figures\1.png)  
-![Upload figure](figures\2.png) <br><br>  
+![Download figure](figures/1.png)  
+![Upload figure](figures/2.png) <br><br>  
 
 Read file pdf
 ```python
@@ -93,7 +93,7 @@ model = AutoModelForCausalLM.from_pretrained(MODEL_NAME,
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 ```
-![model and token](figures\3.png)  
+![model and token](figures/3.png)  
 <br>  
 
 **Step 6:** Intergrate tokenizer and model into a pipeline
@@ -125,7 +125,7 @@ answer = output.split('Answer :')[0].strip ()
 print(answer)
 ```
 *the answer of LLM:*
-![the answer](figures\4.png)
+![the answer](figures/4.png) 
 
 the answer is quite correct.
 
