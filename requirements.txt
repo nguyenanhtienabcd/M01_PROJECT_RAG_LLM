@@ -1,0 +1,11 @@
+transformers
+bitsandbytes
+accelerate
+langchain
+langchainhub
+pypdf
+numpy
+langchain-chroma
+langchain-community
+langchain_huggingface
+python-dotenv
